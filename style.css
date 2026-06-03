@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header>ul{
+
+    list-style: none;
+    text-align: center;
+    padding-top: 1%;
+}
+
+header>ul>li{
+    padding: 3px 0;
+}
+
+header>ul>li>a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    
+    font-weight: 600;
+}
+
+header>ul>li>a:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.1s ease-in;
+    position: relative;
+}
+
+header>ul>li>a::before{
+    content: "";
+    width: 0;
+    color: #000;
+    background-color: black;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 120%;
+    transition: 0.2s;
+}
+
+header>ul>li>a:hover::before {
+    width: 100%;
+}
+
+.louie {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-top: 2%;
+    padding: 0;
+}
+
+.container-louie {
+    padding: 30px;
+    text-align: center;
+}
+
+.container-body {
+    display: flex;
+    height: 100vh;
+}
+
+.esquerda {
+    display: flex;
+    width: 78%;
+    height: 100%;
+}
+
+.esquerda-2 {
+    width: 50%;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.lado-links {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.esquerda-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.esquerda-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.louieTexto{
+    font-size: 130%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(63, 63, 63);
+    justify-content: center;
+}
+
+.home {
+    color: black;
+    font-weight: 700;
+}
+
+.Newsletter{
+    
+    padding-bottom: 3vh;
+}
+
+.InputEmail{
+    font-family: "Poppins", sans-serif ;
+    
+    width: 224px;
+    font-size: 15px;
+    height: 52px;
+    text-decoration: rgb(117, 117, 117);
+    border: 1px solid rgb(202, 202, 155);
+    outline: 0;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+
+    top: 91vh;
+   left: 11vh;
+}
+
+.Louie-grande {
+    top: 40px;
+    position: absolute;
+    font-size: 70px;
+    line-height: 1;
+    color: #8d795e18;
+}
+
+.hello {
+    font-size: 24px;
+    font-weight: 400;
+    color: #bfbfbf;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.container-Textos {
+    display: flexbox;
+
+}
+
+.Louie-grande {
+    padding-top: 18vh;
+    font-weight: 800;
+}
+
+.container-Textos {
+    position: relative;
+    padding-top: 30%;
+}
+
+.subcontainer {
+    width: 700px;
+    padding-left: 50px;
+}
+
+.paragrafo {
+    font-size: 38px;
+}
+
+.biografia {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin: 0 0 1px;
+    color: #999999;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.subBio{
+    padding-top: 30px;
+}
+
+.assinatura {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-top: 18px;
+}
+
+.icons {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.icons>a{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons>a>img{
+    width: 30px;
+    height: auto;
+}
